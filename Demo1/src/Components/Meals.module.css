@@ -1,0 +1,67 @@
+/* General container styling */
+.container {
+    font-family: 'poppins';
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+    padding: 100px;
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 50px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Card hover effect */
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Image styling */
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* Title styling */
+  .card h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #333;
+    
+  }
+  
+  /* Rating and description styling */
+  .card p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .card p:nth-child(2) {
+    color: #f39c12; /* Rating color */
+    font-weight: bold;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+  

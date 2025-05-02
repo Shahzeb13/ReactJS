@@ -1,0 +1,51 @@
+section {
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f5f5fe; /* Light background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+section h1 {
+    color: #4a90e2; /* Modern blue color */
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+section h2 {
+    color: #50c878; /* Fresh green color */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section button {
+    margin: 10px;
+    padding: 12px 25px;
+    background-color: #4a90e2; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 25px; /* Rounded buttons */
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Button shadow */
+}
+
+section button:hover {
+    background-color: #357ab8; /* Darker blue on hover */
+    transform: translateY(-3px); /* Lift effect */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+}
+
+section button:active {
+    transform: translateY(0); /* Reset lift effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Reset shadow */
+}
