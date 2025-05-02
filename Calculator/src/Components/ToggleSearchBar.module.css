@@ -1,0 +1,19 @@
+
+
+ .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+ }
+ input {
+    width: '100%';
+    padding: '10px 15px';
+    border-radius: '20px';
+    border: '1px solid #ccc';
+    outline: 'none';
+    font-size: '16px';
+    padding:0.5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+  }
