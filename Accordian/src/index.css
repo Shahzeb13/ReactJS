@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body, html, #root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;          
+  flex-direction: column;
+  overflow-y: auto;             
+  padding-top: 2rem;    
+  background: linear-gradient(to bottom, #dbeafe, #b3d9ff);    
+}
+
